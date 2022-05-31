@@ -16,4 +16,4 @@ const password = `${userFirstName}${userLastName}${userFavColor}21`
 
 // 3- OUTPUT PER L'UTENTE
 // Stampo in pagina
-alert(password);
+document.getElementById('pass_word').innerHTML = password;
